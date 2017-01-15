@@ -1,0 +1,104 @@
+body {
+    padding: 10px;
+    background: #1E4359;
+}
+
+.calculator-wrapper {
+    max-width: 600px;
+    margin: 20px auto;
+    background: rgba(20, 40, 50, 0.9);
+    border: 2px solid #050C0F;
+    border-radius: 10px;
+}
+
+.logo,
+.mini-subtext {
+    line-height: 0.8;
+    color: #F2F2F0;
+    text-align: center;
+}
+.logo {
+    line-height: 0.5;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+}
+
+.screen-wrapper {
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+#input-screen {
+    word-wrap: break-word;
+    text-align: right;
+    box-sizing: border-box;
+    border: 2px solid #050C0F;
+    border-radius: 6px 6px 0 0;
+    background: rgba(60, 80, 20, 0.9);
+    margin: 0 auto;
+    padding: 10px 6px;
+    font-family: 'VT323', monospace;
+    font-size: 32px;
+    color: #F2F2F0;
+    height: 100px;
+    width: 100%;
+}
+#result-screen {
+    word-wrap: break-word;
+    overflow: auto;
+    text-align: right;
+    box-sizing: border-box;
+    border: 2px solid #050C0F;
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+    background: rgba(40, 60, 10, 0.9);
+    margin: 0 auto;
+    padding: 1px 6px;
+    font-family: 'VT323', monospace;
+    font-size: 32px;
+    color: #F2F2F0;
+    height: 50px;
+    width: 100%;
+}
+.keyboard-wrapper {
+    padding: 20px;
+}
+.keyboard {
+    width: 100%;
+    background: rgba(20, 40, 50, 0.9);
+    text-align: center;
+}
+.keyboard td {
+    padding: 2px;
+}
+.btn {
+
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid #A5A594;
+    background: rgba(10, 20, 30, 0.9);
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn:hover {
+    background: rgba(5, 10, 15, 1);
+}
+.btn-equal {
+    width: 90%;
+    background: rgba(200, 60, 10, 0.9);
+}
+.btn-equal:hover {
+    background: rgba(150, 40, 8, 1);
+}
+.btn-calculation {
+    background: rgba(5, 60, 90, 0.9);
+}
+.btn-calculation:hover {
+    background: rgba(5, 50, 60, 1);
+}
+.btn:active {
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
